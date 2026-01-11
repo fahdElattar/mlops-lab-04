@@ -5,7 +5,7 @@
 
 Ce laboratoire a pour objectif de mettre en place un **pipeline CI/CD complet** pour un projet de Machine Learning, en s’appuyant sur :
 - **GitHub**
-- **GitHub Actions**
+- **GitHub Actions** 
 - **DVC**
 - Des **secrets sécurisés**
   
