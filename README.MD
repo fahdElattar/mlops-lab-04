@@ -1,6 +1,6 @@
-# 📦 Livrables du Lab MLOps : Lab 4 – Mise en place d’un pipeline CI/CD pour un projet Machine Learning
+# Livrables du Lab MLOps : Lab 4 – Mise en place d’un pipeline CI/CD pour un projet Machine Learning
 
-## 📄 Compte Rendu  
+## Compte Rendu  
 **Réalisé par : Fahd El Attar**
 
 Ce laboratoire a pour objectif de mettre en place un **pipeline CI/CD complet** pour un projet de Machine Learning, en s’appuyant sur :
@@ -13,7 +13,7 @@ L’objectif final est d’automatiser les étapes clés du cycle de vie ML : va
 
 ---
 
-## 🧪 Étape 1 : Connexion du projet au dépôt GitHub
+## Étape 1 : Connexion du projet au dépôt GitHub
 
 Connexion du projet `mlops-lab-01` au repository GitHub :
 
@@ -21,7 +21,7 @@ Connexion du projet `mlops-lab-01` au repository GitHub :
 
 ---
 
-## 🧪 Étape 2 : Configuration des secrets GitHub
+## Étape 2 : Configuration des secrets GitHub
 
 Création des secrets nécessaires au fonctionnement du pipeline CI/CD :
 
@@ -31,11 +31,11 @@ Ajout des variables sensibles (ex. credentials, chemins, tokens) :
 
 ![Secrets added](screenshots/image3.png)
 
-> 💡 Ces secrets permettent au pipeline d’accéder au remote DVC et d’exécuter les étapes sans exposer d’informations sensibles dans le code.
+> Ces secrets permettent au pipeline d’accéder au remote DVC et d’exécuter les étapes sans exposer d’informations sensibles dans le code.
 
 ---
 
-## 🧪 Étape 3 : Création du workflow CI/CD
+## Étape 3 : Création du workflow CI/CD
 
 Création du dossier `.github/workflows` :
 
@@ -51,7 +51,7 @@ Ajout du fichier de workflow au versionnement Git :
 
 ---
 
-## 🧪 Étape 4 : Commit, push et vérification du pipeline
+## Étape 4 : Commit, push et vérification du pipeline
 
 Commit et push des modifications vers GitHub, puis vérification de l’exécution du pipeline CI/CD :
 
@@ -59,7 +59,7 @@ Commit et push des modifications vers GitHub, puis vérification de l’exécuti
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 Ce laboratoire a permis de mettre en place un **pipeline CI/CD fonctionnel pour un projet Machine Learning**, intégrant :
 
